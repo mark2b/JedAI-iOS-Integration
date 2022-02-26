@@ -1,0 +1,2 @@
+binary "https://dl.anagog.com/ios/carthage/JedAI.json" == 5.18.0
+github "ccgus/fmdb"
