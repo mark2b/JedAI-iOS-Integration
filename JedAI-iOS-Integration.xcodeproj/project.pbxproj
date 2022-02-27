@@ -13,7 +13,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5D54A1AE27CA220900214E17 /* JedAIIntegrationKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JedAIIntegrationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D54A1AE27CA220900214E17 /* JedAI_iOS_Integration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JedAI_iOS_Integration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D54A1B127CA220900214E17 /* jedai_integration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jedai_integration.h; sourceTree = "<group>"; };
 		5D54A1B227CA220900214E17 /* jedai_integration.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = jedai_integration.docc; sourceTree = "<group>"; };
 		5DCF529927CB684B00376C49 /* JedAIIntegration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JedAIIntegration.swift; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 		5D54A1AF27CA220900214E17 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D54A1AE27CA220900214E17 /* JedAIIntegrationKit.framework */,
+				5D54A1AE27CA220900214E17 /* JedAI_iOS_Integration.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5D54A1AD27CA220900214E17 /* JedAIIntegrationKit */ = {
+		5D54A1AD27CA220900214E17 /* JedAI-iOS-Integration */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D54A1B727CA220900214E17 /* Build configuration list for PBXNativeTarget "JedAIIntegrationKit" */;
+			buildConfigurationList = 5D54A1B727CA220900214E17 /* Build configuration list for PBXNativeTarget "JedAI-iOS-Integration" */;
 			buildPhases = (
 				5D54A1A927CA220900214E17 /* Headers */,
 				5D54A1AA27CA220900214E17 /* Sources */,
@@ -83,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = JedAIIntegrationKit;
+			name = "JedAI-iOS-Integration";
 			productName = "jedai-integration";
-			productReference = 5D54A1AE27CA220900214E17 /* JedAIIntegrationKit.framework */;
+			productReference = 5D54A1AE27CA220900214E17 /* JedAI_iOS_Integration.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5D54A1AD27CA220900214E17 /* JedAIIntegrationKit */,
+				5D54A1AD27CA220900214E17 /* JedAI-iOS-Integration */,
 			);
 		};
 /* End PBXProject section */
@@ -278,6 +278,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,6 +288,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anagog.jedai-integration";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -306,6 +308,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,6 +318,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anagog.jedai-integration";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -333,7 +337,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D54A1B727CA220900214E17 /* Build configuration list for PBXNativeTarget "JedAIIntegrationKit" */ = {
+		5D54A1B727CA220900214E17 /* Build configuration list for PBXNativeTarget "JedAI-iOS-Integration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D54A1B827CA220900214E17 /* Debug */,
