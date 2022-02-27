@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5D54A1AD27CA220900214E17"
-               BuildableName = "JedAIIntegrationKit.framework"
-               BlueprintName = "JedAI-iOS-Integration"
-               ReferencedContainer = "container:JedAI-iOS-Integration.xcodeproj">
+               BuildableName = "JedAI_iOS_Integration.framework"
+               BlueprintName = "JedAIIntegrationKit"
+               ReferencedContainer = "container:JedAIIntegration.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -51,9 +51,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5D54A1AD27CA220900214E17"
-            BuildableName = "JedAIIntegrationKit.framework"
-            BlueprintName = "JedAI-iOS-Integration"
-            ReferencedContainer = "container:JedAI-iOS-Integration.xcodeproj">
+            BuildableName = "JedAI_iOS_Integration.framework"
+            BlueprintName = "JedAIIntegrationKit"
+            ReferencedContainer = "container:JedAIIntegration.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

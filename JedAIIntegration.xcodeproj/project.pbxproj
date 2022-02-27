@@ -10,13 +10,15 @@
 		5D54A1B327CA220900214E17 /* jedai_integration.docc in Sources */ = {isa = PBXBuildFile; fileRef = 5D54A1B227CA220900214E17 /* jedai_integration.docc */; };
 		5D54A1B427CA220900214E17 /* jedai_integration.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D54A1B127CA220900214E17 /* jedai_integration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DCF529A27CB684B00376C49 /* JedAIIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCF529927CB684B00376C49 /* JedAIIntegration.swift */; };
+		5DCF529C27CB6DC100376C49 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 5DCF529B27CB6DC100376C49 /* Cartfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5D54A1AE27CA220900214E17 /* JedAI_iOS_Integration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JedAI_iOS_Integration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D54A1AE27CA220900214E17 /* JedAIIntegrationKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JedAIIntegrationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D54A1B127CA220900214E17 /* jedai_integration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jedai_integration.h; sourceTree = "<group>"; };
 		5D54A1B227CA220900214E17 /* jedai_integration.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = jedai_integration.docc; sourceTree = "<group>"; };
 		5DCF529927CB684B00376C49 /* JedAIIntegration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JedAIIntegration.swift; sourceTree = "<group>"; };
+		5DCF529B27CB6DC100376C49 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 		5D54A1A427CA220900214E17 = {
 			isa = PBXGroup;
 			children = (
+				5DCF529B27CB6DC100376C49 /* Cartfile */,
 				5D54A1B027CA220900214E17 /* Sources */,
 				5D54A1AF27CA220900214E17 /* Products */,
 			);
@@ -41,7 +44,7 @@
 		5D54A1AF27CA220900214E17 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D54A1AE27CA220900214E17 /* JedAI_iOS_Integration.framework */,
+				5D54A1AE27CA220900214E17 /* JedAIIntegrationKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +73,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5D54A1AD27CA220900214E17 /* JedAI-iOS-Integration */ = {
+		5D54A1AD27CA220900214E17 /* JedAIIntegrationKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D54A1B727CA220900214E17 /* Build configuration list for PBXNativeTarget "JedAI-iOS-Integration" */;
+			buildConfigurationList = 5D54A1B727CA220900214E17 /* Build configuration list for PBXNativeTarget "JedAIIntegrationKit" */;
 			buildPhases = (
 				5D54A1A927CA220900214E17 /* Headers */,
 				5D54A1AA27CA220900214E17 /* Sources */,
@@ -83,9 +86,9 @@
 			);
 			dependencies = (
 			);
-			name = "JedAI-iOS-Integration";
+			name = JedAIIntegrationKit;
 			productName = "jedai-integration";
-			productReference = 5D54A1AE27CA220900214E17 /* JedAI_iOS_Integration.framework */;
+			productReference = 5D54A1AE27CA220900214E17 /* JedAIIntegrationKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5D54A1A827CA220900214E17 /* Build configuration list for PBXProject "JedAI-iOS-Integration" */;
+			buildConfigurationList = 5D54A1A827CA220900214E17 /* Build configuration list for PBXProject "JedAIIntegration" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5D54A1AD27CA220900214E17 /* JedAI-iOS-Integration */,
+				5D54A1AD27CA220900214E17 /* JedAIIntegrationKit */,
 			);
 		};
 /* End PBXProject section */
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DCF529C27CB6DC100376C49 /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +332,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5D54A1A827CA220900214E17 /* Build configuration list for PBXProject "JedAI-iOS-Integration" */ = {
+		5D54A1A827CA220900214E17 /* Build configuration list for PBXProject "JedAIIntegration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D54A1B527CA220900214E17 /* Debug */,
@@ -337,7 +341,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D54A1B727CA220900214E17 /* Build configuration list for PBXNativeTarget "JedAI-iOS-Integration" */ = {
+		5D54A1B727CA220900214E17 /* Build configuration list for PBXNativeTarget "JedAIIntegrationKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D54A1B827CA220900214E17 /* Debug */,
