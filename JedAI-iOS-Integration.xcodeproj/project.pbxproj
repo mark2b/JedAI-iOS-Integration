@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5D54A1A827CA220900214E17 /* Build configuration list for PBXProject "JedAIIntegration" */;
+			buildConfigurationList = 5D54A1A827CA220900214E17 /* Build configuration list for PBXProject "JedAI-iOS-Integration" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -324,7 +324,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5D54A1A827CA220900214E17 /* Build configuration list for PBXProject "JedAIIntegration" */ = {
+		5D54A1A827CA220900214E17 /* Build configuration list for PBXProject "JedAI-iOS-Integration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D54A1B527CA220900214E17 /* Debug */,
