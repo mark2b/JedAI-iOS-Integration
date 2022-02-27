@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D54A1B327CA220900214E17 /* jedai_integration.docc in Sources */ = {isa = PBXBuildFile; fileRef = 5D54A1B227CA220900214E17 /* jedai_integration.docc */; };
-		5D54A1B427CA220900214E17 /* jedai_integration.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D54A1B127CA220900214E17 /* jedai_integration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DCF529A27CB684B00376C49 /* JedAIIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCF529927CB684B00376C49 /* JedAIIntegration.swift */; };
 		5DCF529C27CB6DC100376C49 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 5DCF529B27CB6DC100376C49 /* Cartfile */; };
 		5DCF529E27CB95AA00376C49 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCF529D27CB95AA00376C49 /* Package.swift */; };
@@ -16,8 +14,6 @@
 
 /* Begin PBXFileReference section */
 		5D54A1AE27CA220900214E17 /* JedAIIntegrationKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JedAIIntegrationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D54A1B127CA220900214E17 /* jedai_integration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jedai_integration.h; sourceTree = "<group>"; };
-		5D54A1B227CA220900214E17 /* jedai_integration.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = jedai_integration.docc; sourceTree = "<group>"; };
 		5DCF529927CB684B00376C49 /* JedAIIntegration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JedAIIntegration.swift; sourceTree = "<group>"; };
 		5DCF529B27CB6DC100376C49 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		5DCF529D27CB95AA00376C49 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -55,19 +51,17 @@
 		5D54A1B027CA220900214E17 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				5DCF529F27CBA2FE00376C49 /* JedAIIntegrationKit1 */,
+				5DCF529F27CBA2FE00376C49 /* JedAIIntegrationKit */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		5DCF529F27CBA2FE00376C49 /* JedAIIntegrationKit1 */ = {
+		5DCF529F27CBA2FE00376C49 /* JedAIIntegrationKit */ = {
 			isa = PBXGroup;
 			children = (
-				5D54A1B127CA220900214E17 /* jedai_integration.h */,
-				5D54A1B227CA220900214E17 /* jedai_integration.docc */,
 				5DCF529927CB684B00376C49 /* JedAIIntegration.swift */,
 			);
-			path = JedAIIntegrationKit1;
+			path = JedAIIntegrationKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,7 +71,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D54A1B427CA220900214E17 /* jedai_integration.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +145,6 @@
 			files = (
 				5DCF529E27CB95AA00376C49 /* Package.swift in Sources */,
 				5DCF529A27CB684B00376C49 /* JedAIIntegration.swift in Sources */,
-				5D54A1B327CA220900214E17 /* jedai_integration.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
