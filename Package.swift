@@ -3,13 +3,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "JedAIIntegrationKit",
+    name: "JedAIIntegration",
     platforms: [
         .iOS(.v12),
     ],
     products: [
         .library(
-            name: "JedAIIntegrationKit",
+            name: "JedAIIntegration",
             targets: [
                 "JedAIIntegrationKit",
             ]
