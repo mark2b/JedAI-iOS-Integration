@@ -55,19 +55,19 @@
 		5D54A1B027CA220900214E17 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				5DCF529F27CBA2FE00376C49 /* JedAIIntegrationKit */,
+				5DCF529F27CBA2FE00376C49 /* JedAIIntegrationKit1 */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		5DCF529F27CBA2FE00376C49 /* JedAIIntegrationKit */ = {
+		5DCF529F27CBA2FE00376C49 /* JedAIIntegrationKit1 */ = {
 			isa = PBXGroup;
 			children = (
 				5D54A1B127CA220900214E17 /* jedai_integration.h */,
 				5D54A1B227CA220900214E17 /* jedai_integration.docc */,
 				5DCF529927CB684B00376C49 /* JedAIIntegration.swift */,
 			);
-			path = JedAIIntegrationKit;
+			path = JedAIIntegrationKit1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
