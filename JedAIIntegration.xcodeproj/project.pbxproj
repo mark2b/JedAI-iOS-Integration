@@ -11,6 +11,7 @@
 		5D54A1B427CA220900214E17 /* jedai_integration.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D54A1B127CA220900214E17 /* jedai_integration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DCF529A27CB684B00376C49 /* JedAIIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCF529927CB684B00376C49 /* JedAIIntegration.swift */; };
 		5DCF529C27CB6DC100376C49 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 5DCF529B27CB6DC100376C49 /* Cartfile */; };
+		5DCF529E27CB95AA00376C49 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCF529D27CB95AA00376C49 /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		5D54A1B227CA220900214E17 /* jedai_integration.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = jedai_integration.docc; sourceTree = "<group>"; };
 		5DCF529927CB684B00376C49 /* JedAIIntegration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JedAIIntegration.swift; sourceTree = "<group>"; };
 		5DCF529B27CB6DC100376C49 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		5DCF529D27CB95AA00376C49 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 		5D54A1A427CA220900214E17 = {
 			isa = PBXGroup;
 			children = (
+				5DCF529D27CB95AA00376C49 /* Package.swift */,
 				5DCF529B27CB6DC100376C49 /* Cartfile */,
 				5D54A1B027CA220900214E17 /* Sources */,
 				5D54A1AF27CA220900214E17 /* Products */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DCF529E27CB95AA00376C49 /* Package.swift in Sources */,
 				5DCF529A27CB684B00376C49 /* JedAIIntegration.swift in Sources */,
 				5D54A1B327CA220900214E17 /* jedai_integration.docc in Sources */,
 			);
