@@ -16,7 +16,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(name: "JedAI", url: "https://github.com/AnagogLtd/JedAI-iOS.git", from: "v.5.18.0.548"),
+        .package(name: "JedAI", url: "https://github.com/AnagogLtd/JedAI-iOS.git", branch: "v.5.18.0.548"),
     ],
     targets: [
         .target(
